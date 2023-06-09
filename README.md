@@ -1,5 +1,7 @@
-# Advanced-Electronics-Chapter-13-Task
+# Advanced Electronics Chapter 13 Task
 Created by Ester Kayla Olivia (NIM : 21/476559/PA/20582). 
+
+Final project.
 
 Advanced Electronics task based on chapter 13.
 
@@ -14,6 +16,30 @@ Structure of program
 # Run the Program
   Using GHDL and GTKWave
   
-  `ghdl -a --ieee=synopsys -fexplicit files.vhdl
-   ghdl -e --ieee=synopsys -fexplicit files
+  ```
+  ghdl -a --ieee=synopsys -fexplicit files.vhdl
+  ```
+  ```
+  ghdl -e --ieee=synopsys -fexplicit files
+  ```
+  
+ # Simulation with GTKWave
+ Making vcd testbench files for the simulation.
+ 
+ ```
+ ghdl -r files
+ ghdl -r files --vcd = 'filesName.vcd'
+ ```
+ Then, run the vcd.
+ 
+ ```
+ gtkwave filename.vcd
+  ```
+  
+  
+ 
+  
+ 
+   
+  
   
